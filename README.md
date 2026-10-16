@@ -14,7 +14,7 @@ Every other module in this organization's Azure Terraform module set (`terraform
 
 ```hcl
 module "naming" {
-  source  = "git::https://github.com/<org>/terraform-azure-naming.git?ref=v1.0.0"
+  source  = "git::https://github.com/engryinker/terraform-azure-naming.git?ref=v1.0.0"
 
   prefix = ["contoso"]            # e.g. org / business unit
   suffix = ["app1", "prod", "eus"] # e.g. workload, environment, region
